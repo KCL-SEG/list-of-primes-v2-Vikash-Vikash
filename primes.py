@@ -14,7 +14,7 @@ def primes(number_of_primes):
     while len(list)<number_of_primes:
         num+=1
         prime=True
-        for i in range(2,(num/2)+1):
+        for i in range(2,int((num/2))+1):
             if num%i==0:
                 prime=False
                 break
